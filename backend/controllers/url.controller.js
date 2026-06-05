@@ -1,4 +1,4 @@
-import urlService from "../services/url.service.js";
+import * as urlService from "../services/url.service.js";
 
 export const shortenUrl = async (req, res, next) => {
   try {

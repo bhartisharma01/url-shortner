@@ -1,8 +1,8 @@
-import * as urlRepository from "../repositories/url.repository.js";
+import * as urlRepository from "../repositories/url.repo.js";
 
 const BASE_URL = process.env.BASE_URL;
 
-function generateShortCode(length = 6) {
+export function generateShortCode(length = 6) {
   const chars =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 

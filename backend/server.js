@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import helmet from "helmet";
-import { errorHandler,} from "./middleware/error.middleware.js";
+import { errorHandler,} from './middleware/error.middleware.js';
 import urlRoutes from "./routes/url.routes.js";
 
 dotenv.config();
